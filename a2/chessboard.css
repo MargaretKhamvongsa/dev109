@@ -49,7 +49,7 @@ header h1 {
     max-width: 50%;
     margin: 0;
     height: 85%;
-    background-image: url(C:/Users/megin/Pictures/premium_photo-1701760184387-0519ab2e1aee.jpg);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/premium_photo-1701760184387-0519ab2e1aee.jpg);
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -90,38 +90,38 @@ header h1 {
 
 /*Black Style Settings Chess Pieces*/
 .imageblackbishop {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-bishop.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-bishop.png);
     background-size: cover;
     background-position: center;
 
 }
 
 .imageblackcastle {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-castle.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-castle.png);
     background-size: cover;
     background-position: center;
 }
 
 .imageblackking {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-king.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-king.png);
     background-size: cover;
     background-position: center;
 }
 
 .imageblackknight {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-knight.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-knight.png);
     background-size: cover;
     background-position: center;
 }
 
 .imageblackpawn {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-pawn.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-pawn.png);
     background-size: cover;
     background-position: center;
 }
 
 .imageblackqueen {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-queen.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-queen.png);
     background-size: cover;
     background-position: center;
 }
@@ -129,37 +129,37 @@ header h1 {
 
 /*Gold Style Settings Chess Pieces*/
 .imagegoldbishop {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-bishop.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-bishop.png);
     background-size: cover;
     background-position: center;
 }
 
 .imagegoldcastle {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-castle.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-castle.png);
     background-size: cover;
     background-position: center;
 }
 
 .imagegoldking {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-king.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-king.png);
     background-size: cover;
     background-position: center;
 }
 
 .imagegoldknight {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-knight.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-knight.png);
     background-size: cover;
     background-position: center;
 }
 
 .imagegoldpawn {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-pawn.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-pawn.png);
     background-size: cover;
     background-position: center;
 }
 
 .imagegoldqueen {
-    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-queen.png);
+    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-queen.png);
     background-size: cover;
     background-position: center;
 }
