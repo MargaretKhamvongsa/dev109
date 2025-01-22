@@ -62,7 +62,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 /*Row Style Settings*/
@@ -72,7 +72,7 @@ header h1 {
 
 /*Cell Style Settings*/
 .cell {
-    width: 12.5%
+    width: 12.5%;
     height: 70px;
     box-sizing: border-box;
     border: 1px solid black;
