@@ -16,7 +16,7 @@ body {
 #title {
     padding: 10px;
     margin: 0;
-     width: 100%;
+    width: 100%;
     background-color: lightyellow;
     text-align: center;
 }
@@ -27,7 +27,7 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-height: 100px;
+    height: 100px;
     padding: 1em 0;
     margin: 0;
 }
@@ -94,6 +94,9 @@ header h1 {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-bishop.png?raw=true);
     background-size: cover;
     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -101,11 +104,17 @@ header h1 {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-castle.png?raw=true);
     background-size: cover;
     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .imageblackking {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-king.png?raw=true);
     background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -113,17 +122,26 @@ header h1 {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-knight.png?raw=true);
     background-size: cover;
     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .imageblackpawn {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-pawn.png?raw=true);
     background-size: cover;
     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .imageblackqueen {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-queen.png?raw=true);
     background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -133,11 +151,17 @@ header h1 {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-bishop.png?raw=true);
     background-size: cover;
     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .imagegoldcastle {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-castle.png?raw=true);
     background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -145,11 +169,17 @@ header h1 {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-king.png?raw=true);
     background-size: cover;
     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .imagegoldknight {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-knight.png?raw=true);
     background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -157,11 +187,18 @@ header h1 {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-pawn.png?raw=true);
     background-size: cover;
     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .imagegoldqueen {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-queen.png?raw=true);
     background-size: cover;
     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 /*End of code written by Margaret Khamvongsa*/
