@@ -1,0 +1,166 @@
+/*Start of code written by Margaret Khamvongsa*/
+/*Body Style Settings*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Title Style Settings*/
+#title {
+    padding: 10px;
+    margin: 0;
+    width: 100vw;
+    background-color: lightyellow;
+    text-align: center;
+}
+
+/*Footer Style Settings*/
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+height: 100px;
+    padding: 1em 0;
+    margin: 0;
+}
+
+/*Header Style Settings*/
+header h1 {
+    text-align: center;
+    font-family: 'RalewayRegular';
+    margin: 0;
+    width: 100%;
+}
+
+/*Container Style Settings*/
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 50%;
+    margin: 0;
+    height: 85%;
+    background-image: url(C:/Users/megin/Pictures/premium_photo-1701760184387-0519ab2e1aee.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+/*Chessboard Style Settings*/
+.chessboard {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+/*Row Style Settings*/
+.row {
+    display: flex;
+}
+
+/*Cell Style Settings*/
+.cell {
+    width: 12.5%
+    height: 70px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+/*White Background Color Style Settings*/
+.white {
+    background-color: white;
+}
+
+/*Black Background Color Style Settings*/
+.black {
+    background-color: #787878;
+
+}
+
+/*Black Style Settings Chess Pieces*/
+.imageblackbishop {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-bishop.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.imageblackcastle {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-castle.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.imageblackking {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-king.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.imageblackknight {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-knight.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.imageblackpawn {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-pawn.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.imageblackqueen {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/black-queen.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*Gold Style Settings Chess Pieces*/
+.imagegoldbishop {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-bishop.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.imagegoldcastle {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-castle.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.imagegoldking {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-king.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.imagegoldknight {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-knight.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.imagegoldpawn {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-pawn.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.imagegoldqueen {
+    background-image: url(C:/Users/megin/Pictures/chess_icons-1/gold-queen.png);
+    background-size: cover;
+    background-position: center;
+}
+/*End of code written by Margaret Khamvongsa*/
