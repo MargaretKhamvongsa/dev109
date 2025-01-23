@@ -52,7 +52,7 @@ header h1 {
     width: 80%;
     max-width: 100%;
     margin: 60px;
-    height: calc(100vh - 160px);
+    height: 80%;
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/premium_photo-1701760184387-0519ab2e1aee.jpg?raw=true);
     background-size: cover;
     background-position: center;
