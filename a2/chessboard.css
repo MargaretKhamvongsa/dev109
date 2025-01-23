@@ -36,14 +36,6 @@ footer {
     margin: 0;
 }
 
-/*Center Style Settings*/
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 /*Header Style Settings*/
 header h1 {
     text-align: center;
