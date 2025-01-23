@@ -1,207 +1,109 @@
 
-/*Body Style Settings*/
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-size: cover;
-    background-position: center;
-}
+<!-- Start of code written by Margaret Khamvongsa -->
+<!DOCTYPE html>
+<html lang="en">
 
-/*Title Style Settings*/
-#title {
- position:fixed;
- top:0px;
- left:0px; 
- padding:0px;
- margin:0px;
- width:100%;
- background-color:lightyellow;
- text-align:center; 
- z-index:10;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard</title>
+    <link rel="stylesheet" type="text/css" href="chessboard.css"><!-- Link to Style Sheet -->
+    <link rel="stylesheet" href="https://fontlibrary.org//face/raleway" type="text/css"><!-- Link to Font -->
+</head>
 
-/*Footer Style Settings*/
-footer {
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    height: 100px;
-    padding: 20px;
-    margin: 0px;
-}
-
-/*Header Style Settings*/
-header h1 {
-    text-align: center;
-    font-family: 'RalewayRegular';
-    margin: 0;
-    width: 100%;
-}
-
-/*Container Style Settings*/
-#container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    max-width: 100%;
-    margin: 0px;
-    height: 80%;
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/premium_photo-1701760184387-0519ab2e1aee.jpg?raw=true);
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-}
-
-/*Chessboard Style Settings*/
-.chessboard {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-
-/*Row Style Settings*/
-.row {
-    display: flex;
-}
-
-/*Cell Style Settings*/
-.cell {
-    width: 12.5%;
-    height: 70px;
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-
-/*White Background Color Style Settings*/
-.white {
-    background-color: white;
-}
-
-/*Black Background Color Style Settings*/
-.black {
-    background-color: #787878;
-
-}
-
-/*Black Style Settings Chess Pieces*/
-.imageblackbishop {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-bishop.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.imageblackcastle {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-castle.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imageblackking {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-king.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imageblackknight {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-knight.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imageblackpawn {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-pawn.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imageblackqueen {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-queen.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-/*Gold Style Settings Chess Pieces*/
-.imagegoldbishop {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-bishop.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imagegoldcastle {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-castle.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imagegoldking {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-king.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imagegoldknight {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-knight.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imagegoldpawn {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-pawn.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imagegoldqueen {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-queen.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
+<body>
+    <header>
+        <h1 id="title">Chessboard</h1>
+    </header>
+    <div id="container">
+        <div class="chessboard">
+            <div class="row"> <!-- Row 1 -->
+                <div class="cell white imageblackcastle"></div>
+                <div class="cell black imageblackknight"></div>
+                <div class="cell white imageblackbishop"></div>
+                <div class="cell black imageblackking"></div>
+                <div class="cell white imageblackqueen"></div>
+                <div class="cell black imageblackbishop"></div>
+                <div class="cell white imageblackknight"></div>
+                <div class="cell black imageblackcastle"></div>
+            </div> <!-- End Row 1-->
+            <div class="row"> <!-- Row 2 -->
+                <div class="cell black imageblackpawn"></div>
+                <div class="cell white imageblackpawn"></div>
+                <div class="cell black imageblackpawn"></div>
+                <div class="cell white imageblackpawn"></div>
+                <div class="cell black imageblackpawn"></div>
+                <div class="cell white imageblackpawn"></div>
+                <div class="cell black imageblackpawn"></div>
+                <div class="cell white imageblackpawn"></div>
+            </div> <!-- End Row 2-->
+            <div class="row"> <!-- Row 3 -->
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+            </div> <!-- End Row 3-->
+            <div class="row"> <!-- Row 4 -->
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+            </div> <!-- End Row 4-->
+            <div class="row"> <!-- Row 5 -->
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+            </div> <!-- End Row 5-->
+            <div class="row"> <!-- Row 6 -->
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+                <div class="cell black"></div>
+                <div class="cell white"></div>
+            </div> <!-- End Row 6-->
+            <div class="row"> <!-- Row 7 -->
+                <div class="cell white imagegoldpawn"></div>
+                <div class="cell black imagegoldpawn"></div>
+                <div class="cell white imagegoldpawn"></div>
+                <div class="cell black imagegoldpawn"></div>
+                <div class="cell white imagegoldpawn"></div>
+                <div class="cell black imagegoldpawn"></div>
+                <div class="cell white imagegoldpawn"></div>
+                <div class="cell black imagegoldpawn"></div>
+            </div> <!-- End Row 7-->
+            <div class="row"> <!-- Row 8 -->
+                <div class="cell black imagegoldcastle"></div>
+                <div class="cell white imagegoldknight"></div>
+                <div class="cell black imagegoldbishop"></div>
+                <div class="cell white imagegoldking"></div>
+                <div class="cell black imagegoldqueen"></div>
+                <div class="cell white imagegoldbishop"></div>
+                <div class="cell black imagegoldknight"></div>
+                <div class="cell white imagegoldcastle"></div>
+            </div> <!-- End Row 8-->
+        </div>
+    </div> <!-- End of container-->
+    <footer>
+        <div id="footer">
+           <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88"></a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img
+                        style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a>
+        </div>
+    </footer>
+<!-- End of code written by Margaret Khamvongsa -->
