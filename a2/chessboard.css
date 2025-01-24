@@ -19,7 +19,6 @@ body {
  left:0px; 
  padding:10px;
  margin:0px;
- width:100%;
  background-color:lightyellow;
  text-align:center; 
  z-index:10;
@@ -36,21 +35,12 @@ footer {
     margin: 0;
 }
 
-/*Header Style Settings*/
-header h1 {
-    text-align: center;
-    font-family: 'RalewayRegular';
-    margin: 0;
-    width: 100%;
-}
 
 /*Container Style Settings*/
 #container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    max-width: 100%;
     margin: 60px;
     height: 80%;
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/premium_photo-1701760184387-0519ab2e1aee.jpg?raw=true);
@@ -142,62 +132,6 @@ header h1 {
 
 .imageblackqueen {
     background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/black-queen.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-/*Gold Style Settings Chess Pieces*/
-.imagegoldbishop {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-bishop.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imagegoldcastle {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-castle.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imagegoldking {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-king.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imagegoldknight {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-knight.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imagegoldpawn {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-pawn.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.imagegoldqueen {
-    background-image: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/a2/chess_icons-1/gold-queen.png?raw=true);
     background-size: cover;
     background-position: center;
     background-size: contain;
