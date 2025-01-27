@@ -8,37 +8,61 @@
     <meta name="author" content="Margaret Khamvongsa">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 600px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        td[rowspan="8"] {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <table width="600" cellpadding="0" cellspacing="0" border="1">
+    <table>
         <tr>
             <td colspan="3">
-                <h1 align="center">HTML Table Example
-               </h1>
+                <h1>HTML Table Example</h1>
             </td>
         </tr>
         <tr>
             <td>
                 <h2><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3gFJ1CS8Izz-B85gNKvNfpmWSwqQD1lUAXe-BEDmTHOCFgwVE4UJbitL0mN1EtrWxpz3&s"
-                        alt="Cartoon Kitchen" width="200" height="200"></h2>
+                        alt="Cartoon Kitchen"></h2>
             </td>
             <td>
-               <h2 align="center">Meal Planner</h2>
+                <h2>Meal Planner</h2>
             </td>
             <td>
                 <h2>Recipe Index #:</h2>
             </td>
         </tr>
         <tr>
-            <td align="center"><strong>Week Starting</strong></td>
-            <td align="center"><strong>2/15/2018</strong></td>
+            <td><strong>Week Starting</strong></td>
+            <td><strong>2/15/2018</strong></td>
             <td><strong>Instructions</strong></td>
         </tr>
         <tr>
             <td><strong>Day of Week</strong></td>
             <td><strong>Recipe Name</strong></td>
-            <td rowspan="8" align="center">Add the name of the recipe under the column Recipe Name</td>
+            <td rowspan="8">Add the name of the recipe under the column Recipe Name</td>
         </tr>
         <tr>
             <td>Monday</td>
@@ -70,4 +94,5 @@
         </tr>
     </table>
 </body>
+
 </html>
