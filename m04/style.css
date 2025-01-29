@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/dev109/blob/main/m04/darkarrangement.jpg) no-repeat center center fixed;
+    background: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/m04/darkarrangement.jpg) no-repeat center center fixed;
     background-size: cover; /* Ensures the background image covers the whole page */
     background-color: #1a1a1a; /* Fallback dark background color */
     width: 90%;
