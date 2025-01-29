@@ -6,24 +6,28 @@
     text-align: center;
 }
 
+/* Body Style Settings */
 body {
     background: url('../m04/darkfloral.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensures the background image covers page */
-    background-color: #1a1a1a; /* Fallback dark background color */
+    background-color: #1a1a1a; /* Fallback dark Background Color */
     width: 90%;
     margin: 0 auto;
 }
 
+/* Content Style Settings */
 #content {
     overflow: auto;
 }
 
+/* Menu Style Settings */
 #nav {
     background-color: #3d3d3d; /* Dark Grey for Menu */
     margin: 1%;
     padding: 0.5em 0;
 }
 
+/* Feature Style Settings */
 #feature {
     background-color: #5e005e; /* Deep Purple for Feature */
     margin: 1%;
@@ -34,14 +38,16 @@ body {
     color: #4b0082; /* Indigo for text */
 }
 
-
+/* Page Style Settings */
 #feature h2,
 #feature p {
     color: #4b0082;
 
 }
+
+/* Column 1 Style Settings */
 .column1 {
-    background-color: #8b0000; /* Blood Red for Column One */
+    background-color: #8b0000; /* Blood Red for Column One Background Color*/
     width: 31.3%;
     float: left;
     margin: 1%;
@@ -49,8 +55,9 @@ body {
     margin-bottom: 1em;
 }
 
+/* Column 2 Style Settings */
 .column2 {
-    background-color: #4b0082; /* Indigo for Column Two */
+    background-color: #4b0082; /* Indigo for Column Two Background Color */
     width: 31.3%;
     float: left;
     margin: 1%;
@@ -58,8 +65,9 @@ body {
     margin-bottom: 1em;
 }
 
+/* Column 3 Style Settings */
 .column3 {
-    background-color: #000000; /* Black for Column Three */
+    background-color: #000000; /* Black for Column Three background color*/
     width: 31.3%;
     float: left;
     margin: 1%;
@@ -68,20 +76,22 @@ body {
     margin-right: 0%;
 }
 
+/* Footer Style Settings */
 #footer {
-    background-color: #d3d3d3; /* Light Grey for Footer */
+    background-color: #d3d3d3; /* Light Grey for Footer background color */
     color: #000000; /* Black text */
     margin: 1%;
     padding: 0.5em 0;
 }
 
-
+/* List Style Settings */
 li {
     display: inline;
     padding: 0.5em;
 }
 
+/* Logo Style Settings */
 .logo {
     font-family: 'Gothic', cursive;
-    color: #ff3333; /* Blood Red for Logo */
+    color: #ff3333; /* Blood Red for Logo text */
 }
