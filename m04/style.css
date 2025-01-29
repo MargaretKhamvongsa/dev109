@@ -1,1 +1,81 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #eeeeee; /* Light grey for text */
+    text-align: center;
+}
+
+body {
+    background: url(https://github.com/MargaretKhamvongsa/dev109/blob/main/dev109/blob/main/m04/darkarrangement.jpg) no-repeat center center fixed;
+    background-size: cover; /* Ensures the background image covers the whole page */
+    background-color: #1a1a1a; /* Fallback dark background color */
+    width: 90%;
+    margin: 0 auto;
+}
+
+#content {
+    overflow: auto;
+}
+
+#nav {
+    background-color: #3d3d3d; /* Dark Grey for Menu */
+    margin: 1%;
+    padding: 0.5em 0;
+}
+
+#feature {
+    background-color: #5e005e; /* Deep Purple for Feature */
+    margin: 1%;
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+#feature img {
+    width: 100%;
+    height: auto;
+}
+
+.column1 {
+    background-color: #8b0000; /* Blood Red for Column One */
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+.column2 {
+    background-color: #4b0082; /* Indigo for Column Two */
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+.column3 {
+    background-color: #000000; /* Black for Column Three */
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    height: 10em;
+    margin-bottom: 1em;
+    margin-right: 0%;
+}
+
+#footer {
+    background-color: #d3d3d3; /* Light Grey for Footer */
+    color: #000000; /* Black text for contrast */
+    margin: 1%;
+    padding: 0.5em 0;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    color: #ff3333; /* Blood Red for Logo */
+}
 
