@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url('m04/darkfloral.jpg') no-repeat center center fixed;
+    background: url('../m04/darkfloral.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensures the background image covers page */
     background-color: #1a1a1a; /* Fallback dark background color */
     width: 90%;
@@ -29,7 +29,7 @@ body {
     margin: 1%;
     height: 10em;
     margin-bottom: 1em;
-    background: url('m04/tile.jpg') no-repeat center center;
+    background: url('../m04/tile.jpg') no-repeat center center;
     background-size: cover; /* Ensures the feature image covers the section */
     color: #4b0082; /* Indigo for text */
 }
