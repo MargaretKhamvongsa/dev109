@@ -4,10 +4,10 @@ function createDiamond(pHeight, pColorEven, pColorOdd, pSymbol) {
 
     // Top Diamond
     for (let i = 0; i < pHeight; i++) {
-        rLine += "<p>";
+        rLine += "<div class='line'>";
         // Left Top
         for (let j = pHeight - 1; j > i; j--) {
-            rLine += "<span>&nbsp;&nbsp;</span>";
+            rLine += "<span style='visibility:hidden;'>*</span>";
         }
         for (let j = 0; j <= i; j++) {
             rLine += `<span style='color:${j % 2 ? pColorEven : pColorOdd};'>${pSymbol}</span>`;
@@ -16,15 +16,18 @@ function createDiamond(pHeight, pColorEven, pColorOdd, pSymbol) {
         for (let j = 1; j <= i; j++) {
             rLine += `<span style='color:${j % 2 ? pColorEven : pColorOdd};'>${pSymbol}</span>`;
         }
-        rLine += "</p>";
+        for (let j = pHeight - 1; j > i; j--) {
+            rLine += "<span style='visibility:hidden;'>*</span>";
+        }
+        rLine += "</div>";
     }
 
     // Bottom Diamond
     for (let i = pHeight - 1; i >= 0; i--) {
-        rLine += "<p>";
+        rLine += "<div class='line'>";
         // Left Bottom
         for (let j = pHeight - 1; j > i; j--) {
-            rLine += "<span>&nbsp;&nbsp;</span>";
+            rLine += "<span style='visibility:hidden;'>*</span>";
         }
         for (let j = 0; j <= i; j++) {
             rLine += `<span style='color:${j % 2 ? pColorEven : pColorOdd};'>${pSymbol}</span>`;
@@ -33,10 +36,12 @@ function createDiamond(pHeight, pColorEven, pColorOdd, pSymbol) {
         for (let j = 1; j <= i; j++) {
             rLine += `<span style='color:${j % 2 ? pColorEven : pColorOdd};'>${pSymbol}</span>`;
         }
-        rLine += "</p>";
+        for (let j = pHeight - 1; j > i; j--) {
+            rLine += "<span style='visibility:hidden;'>*</span>";
+        }
+        rLine += "</div>";
     }
 
     // Update Content
-    document.getElementById("upRight").innerHTML = rLine;
-    document.getElementById("downRight").innerHTML = "";
+    document.getElementById("diamondContainer").innerHTML = rLine;
 }
