@@ -1,6 +1,7 @@
 /* Body Styling */
 body {
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 /* Label Styling */
@@ -15,13 +16,21 @@ select, input {
 
 /* Diamond Container */
 #diamondContainer {
-    text-align: center;
     display: inline-block;
-    width: 100%;
+    text-align: left;
+    white-space: pre;
 }
 
-/* Centering Diamond */
-#diamondContainer div {
+/* Line Styling */
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+/* Span Styling */
+.line span {
     display: inline-block;
+    width: 1em;
+    height: 1em;
     text-align: center;
 }
