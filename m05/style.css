@@ -1,16 +1,16 @@
-/* Import Font from Font Library */
-@import url(https://fontlibrary.org/face/wellfleet);
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
 
-/* Body styling */
+/* Style Body Element */
 body {
     background-color: #523620;
     color: #fff;
-    font-family: 'Wellfleet', times, serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 150%;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
 }
 
-/* Header styling */
+/* Style for the Hidden Heading Background Image */
 h1 {
     background-image: url('../images/bullseye-logo.png');
     background-repeat: no-repeat;
@@ -22,28 +22,32 @@ h1 {
     margin: 40px auto;
 }
 
-/* Teacher image styling */
+/* Style Teacher Image */
 #teacher {
     float: right;
-    margin: 0px 30px 0px 0px;
-}
-#teacher2 {
-    float: right;
-    margin: 135px 30px 0px 0px;
+    margin: 0 30px 0 0;
 }
 
-/* Page styling */
+/* Style Second Teacher Image */
+#teacher2 {
+    float: right;
+    margin: 135px 30px 0 0;
+}
+
+/* Style Main Page Sections */
 #page1, #page2 {
     background-color: #fecc6f;
     height: 596px;
     padding: 10px;
     min-width: 779px;
 }
+
+/* Style Second Page Section */
 #page2 {
     height: 730px;
 }
 
-/* Answer box styling */
+/* Style Answer Section */
 #answer {
     border: 12px double #fff;
     color: #523620;
@@ -54,13 +58,13 @@ h1 {
     text-align: center;
 }
 
-/* Blackboard styling */
+/* Style Blackboard Section */
 #blackboard {
     background-color: #425a5a;
     border: 25px solid #523620;
     border-radius: 20px;
     padding: 40px 20px;
-    margin: 0px auto;
+    margin: 0 auto;
     height: 370px;
     width: 600px;
     text-align: center;
