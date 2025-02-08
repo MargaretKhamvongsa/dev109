@@ -1,0 +1,14 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Center Styling */
+#upRight, #downRight {
+    text-align: center;
+}
+
+/* Removing Default Margins Styling */
+p {
+    margin: 0;
+}
