@@ -3,12 +3,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Center Styling */
-#upRight, #downRight {
-    text-align: center;
+/* Label Styling */
+label {
+    font-weight: bold;
 }
 
-/* Removing Default Margins Styling */
-p {
-    margin: 0;
+/* Select Input */
+select, input {
+    margin-bottom: 10px;
+}
+
+/* Div Styling */
+div {
+    margin-top: 20px;
 }
