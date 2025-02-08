@@ -14,6 +14,8 @@ body {
 h1 {
     background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/m05/bullseyeclip2.PNG?raw=true');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
