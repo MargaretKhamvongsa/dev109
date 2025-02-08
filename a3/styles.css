@@ -13,7 +13,15 @@ select, input {
     margin-bottom: 10px;
 }
 
-/* Div Styling */
-div {
-    margin-top: 20px;
+/* Diamond Container */
+#diamondContainer {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Centering Diamond */
+#diamondContainer div {
+    display: inline-block;
+    text-align: center;
 }
