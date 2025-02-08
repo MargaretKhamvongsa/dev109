@@ -4,36 +4,48 @@
 <meta name="description" content="Week 6 - BC - Rhombus">
 <meta charset="utf-8">
 <title>JS Bin</title>
-<link rel="stylesheet" href="styles.css"> <!-- Linking CSS File -->
+<!-- Linking CSS -->
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Rhombus Size -->
     <label>What is the size of Rhombus?</label><br>
+    <!-- Rhombus Input -->
     <input type="text" id="rHeight" value="5" size="5"><br>
+    <!-- Even Color -->
     <label>Choose color for Even position</label><br>
+    <!-- Even Select -->
     <select id="colorEven">
         <option value="#0000FF">Blue</option>
         <option value="#FF0000">Red</option>
         <option value="#FF9900">Orange</option>
     </select><br>
+    <!-- Odd Color -->
     <label>Choose color for Odd position</label><br>
+    <!-- Odd Select -->
     <select id="colorOdd">
         <option value="#FF0099">Pink</option>
         <option value="#33FF00">Green</option>
         <option value="#660099">Purple</option>
     </select><br>
+    <!-- Symbol Choice -->
     <label>Choose symbol for Rhombus</label><br>
+    <!-- Symbol select -->
     <select id="symbol">
         <option value="*">*</option>
         <option value="$">$</option>
         <option value="@">@</option>
     </select><br>
-    <button onclick="createRhombus(document.getElementById('rHeight').value,
-    document.getElementById('colorEven').value,
-    document.getElementById('colorOdd').value,
-    document.getElementById('symbol').value);">Display Rhombus</button>
+    <!-- Display Button -->
+    <button onclick="createDiamond(document.getElementById('rHeight').value, 
+           document.getElementById('colorEven').value, 
+           document.getElementById('colorOdd').value, 
+           document.getElementById('symbol').value);">Display Diamond</button>
+    <!-- Upper Right -->
     <div id="upRight"></div>
+    <!-- Lower right -->
     <div id="downRight"></div>
-    <script src="script.js"></script> <!-- Linking JavaScript File -->
+    <!-- Linking JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
-
