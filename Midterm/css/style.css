@@ -67,61 +67,41 @@ main {
     padding-bottom: 60px;
 }
 
-/* Flex container styles */
-.flex-container {
+/* Contact Form Styles */
+form {
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
-    padding: 0 2%;
-}
-
-/* Columns styles */
-.html-column, .css-column {
-    flex: 1;
     padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-/* Validation Images styles */
-.validation-image {
-    width: 600px; 
-    height: 700px; 
-    display: block;
-    margin: 1px auto; 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+input[type="submit"] {
+    background-color: #4B0082;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-#home-validation {
-    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidTermIndexValidated.PNG?raw=true');
-}
-
-#about-validation {
-    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermAboutValidated.PNG?raw=true');
-}
-
-#courses-validation {
-    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermArtifactsValidated.PNG?raw=true');
-}
-
-#artifacts-validation {
-    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermContactMeValidated.PNG?raw=true');
-}
-
-#moduleassignments-validation {
-    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermCoursesValidated.PNG?raw=true');
-}
-
-#contactme-validation {
-    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermModuleAssignmentsValidated.PNG?raw=true');
-}
-
-#wildcard-validation {
-    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermWildCardValidated.PNG?raw=true');
-}
-
-#css-validation {
-    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/Css_Validation.PNG?raw=true');
+input[type="submit"]:hover {
+    background-color: #333;
 }
 
 /* Footer Styles */
@@ -134,10 +114,4 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: 1000;
-}
-
-/* Bold Labels */
-.html-column p,
-.css-column p {
-    font-weight: bold;
 }
