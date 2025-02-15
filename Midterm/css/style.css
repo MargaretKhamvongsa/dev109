@@ -104,3 +104,8 @@ footer {
     position: fixed;
     bottom: 0;
 }
+/* Image Styles */
+img {
+    width: 800px;
+    display: block;
+}
