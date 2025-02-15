@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #C8A2C8; 
-    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/pic2.jpg?raw=true'); 
+    background-color: #C8A2C8;
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/pic2.jpg?raw=true');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -60,38 +60,43 @@ nav ul li a:hover {
 /* Main Content */
 main {
     flex: 1;
-    padding-top: 100px;
+    padding-top: 120px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding-bottom: 60px;
 }
 
-/* Contact Form Styles */
-form {
+/* Contact Me Page Form Styles */
+.contact-form form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     width: 80%;
     max-width: 600px;
     margin: 0 auto;
 }
 
-label {
+.contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
     margin: 10px 0 5px 0;
     font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-input[type="submit"] {
+.contact-form input[type="submit"] {
     background-color: #4B0082;
     color: white;
     padding: 10px 20px;
@@ -100,8 +105,62 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+.contact-form input[type="submit"]:hover {
     background-color: #333;
+}
+
+/* Validated Page Styles */
+.validated-page .flex-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.validated-page .html-column, .validated-page .css-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.validated-page .validation-image {
+    width: 600px;
+    height: 700px;
+    display: block;
+    margin: 1px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.validated-page #home-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidTermIndexValidated.PNG?raw=true');
+}
+
+.validated-page #about-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermAboutValidated.PNG?raw=true');
+}
+
+.validated-page #courses-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermArtifactsValidated.PNG?raw=true');
+}
+
+.validated-page #artifacts-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermContactMeValidated.PNG?raw=true');
+}
+
+.validated-page #moduleassignments-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermCoursesValidated.PNG?raw=true');
+}
+
+.validated-page #contactme-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermModuleAssignmentsValidated.PNG?raw=true');
+}
+
+.validated-page #wildcard-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermWildCardValidated.PNG?raw=true');
+}
+
+.validated-page #css-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/Css_Validation.PNG?raw=true');
 }
 
 /* Footer Styles */
@@ -114,4 +173,10 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: 1000;
+}
+
+/* Bold Labels */
+.validated-page .html-column p,
+.validated-page .css-column p {
+    font-weight: bold;
 }
