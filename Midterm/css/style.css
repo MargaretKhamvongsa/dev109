@@ -1,6 +1,6 @@
 /* Body Styles */
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #C8A2C8; 
@@ -24,6 +24,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 /* Navigation Menu */
@@ -62,40 +63,62 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 20px 60px 20px; 
 }
 
-/* Form Styles */
-form {
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+/* Flex container styles */
+.flex-container {
     display: flex;
-    flex-direction: column;
     gap: 10px;
 }
 
-/* Form Labels */
-label {
-    margin-bottom: 5px;
-}
-
-/* Form Inputs */
-input, textarea {
+/* Columns styles */
+.html-column, .css-column {
+    flex: 1;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
-/* Submit Button */
-input[type="submit"] {
-    background: #4B0082;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
+/* Validation Images styles */
+.validation-image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 10px;
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#home-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidTermIndexValidated.PNG?raw=true');
+}
+
+#about-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermAboutValidated.PNG?raw=true');
+}
+
+#courses-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermArtifactsValidated.PNG?raw=true');
+}
+
+#artifacts-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermContactMeValidated.PNG?raw=true');
+}
+
+#moduleassignments-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermCoursesValidated.PNG?raw=true');
+}
+
+#contactme-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermModuleAssignmentsValidated.PNG?raw=true');
+}
+
+#wildcard-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermWildCardValidated.PNG?raw=true');
+}
+
+#css-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/Css_Validation.PNG?raw=true');
 }
 
 /* Footer Styles */
@@ -105,24 +128,6 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-}
-
-/* Image Styles */
-img {
-    max-width: 90%;  
-    display: block;
-    margin: 0 auto;
-    padding: 20px; 
-}
-
-/* Center Text Styles */
-.center-text {
-    text-align: center;
-}
-
-/* Padding Before Text */
-.padding-top {
-    padding-top: 10px; 
+    margin-top: auto;
+    z-index: 1000;
 }
