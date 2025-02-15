@@ -1,3 +1,4 @@
+/* Body Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,19 +11,7 @@ body {
     min-height: 100vh;
 }
 
-header {
-    background: #4B0082;body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/pic1.jpg?raw=true') no-repeat center center fixed;
-    background-size: cover;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
+/* Header Styles */
 header {
     background: #4B0082;
     color: white;
@@ -33,6 +22,7 @@ header {
     top: 0;
 }
 
+/* Navigation Menu */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -43,10 +33,12 @@ nav ul {
     justify-content: center;
 }
 
+/* List Items */
 nav ul li {
     display: inline;
 }
 
+/* Navigation Links */
 nav ul li a {
     display: block;
     color: white;
@@ -55,10 +47,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Hover effect */
 nav ul li a:hover {
     background-color: #111;
 }
 
+/* Main Content */
 main {
     flex: 1;
     display: flex;
@@ -68,6 +62,7 @@ main {
     padding-bottom: 100px;
 }
 
+/* Form Styles */
 form {
     background: #fff;
     padding: 20px;
@@ -78,16 +73,19 @@ form {
     gap: 10px;
 }
 
+/* Form Labels */
 label {
     margin-bottom: 5px;
 }
 
+/* Form Inputs */
 input, textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+/* Submit Button */
 input[type="submit"] {
     background: #4B0082;
     color: white;
@@ -96,87 +94,7 @@ input[type="submit"] {
     margin-top: 10px;
 }
 
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
-
-    color: white;
-    padding: 15px;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    top: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4B0082;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background-color: #111;
-}
-
-main {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-form {
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-label {
-    margin-bottom: 5px;
-}
-
-input, textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="submit"] {
-    background: #4B0082;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
+/* Footer Styles */
 footer {
     background: #333;
     color: white;
