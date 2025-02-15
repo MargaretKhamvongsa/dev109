@@ -135,3 +135,9 @@ footer {
     bottom: 0;
     z-index: 1000;
 }
+
+/* Bold Labels */
+.html-column p,
+.css-column p {
+    font-weight: bold;
+}
