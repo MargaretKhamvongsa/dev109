@@ -70,7 +70,7 @@ main {
 /* Contact Me Page Form Styles */
 .contact-form form {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column; /* Ensure form fields are displayed vertically */
     width: 80%;
     max-width: 600px;
     margin: 0 auto;
