@@ -72,18 +72,20 @@ main {
     display: flex;
     gap: 10px;
     width: 100%;
+    padding: 0 5%;
 }
 
 /* Columns styles */
 .html-column, .css-column {
     flex: 1;
     padding: 10px;
+    width: 48%;
 }
 
 /* Validation Images styles */
 .validation-image {
-    width: 350px; 
-    height: 600px; 
+    width: 100%; 
+    height: auto;
     display: block;
     margin: 10px auto; 
     background-size: contain;
