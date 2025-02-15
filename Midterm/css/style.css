@@ -72,7 +72,7 @@ main {
     display: flex;
     gap: 10px;
     width: 100%;
-    padding: 0 1%; 
+    padding: 0 1%;
 }
 
 /* Columns styles */
@@ -83,10 +83,10 @@ main {
 
 /* Validation Images styles */
 .validation-image {
-    width: 600px; 
-    height: 600px; 
+    width: 800px; 
+    height: 800px; 
     display: block;
-    margin: 10px auto; 
+    margin: 1px auto; 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
