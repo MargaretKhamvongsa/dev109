@@ -17,7 +17,7 @@ h1 {
   background: #1e1b1e url('https://github.com/MargaretKhamvongsa/dev109/blob/main/m07/images/travelworth.PNG?raw=true') no-repeat;
   width: 230px;
   height: 180px;
-  float: left;
+  float: center;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
