@@ -15,13 +15,16 @@ body {
 
 h1 {
   background: #1e1b1e url('https://github.com/MargaretKhamvongsa/dev109/blob/main/m07/images/travelworth.PNG?raw=true') no-repeat;
+  background-size: contain; 
   width: 230px;
   height: 180px;
-  float: center;
+  display: block; 
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  margin: 0;}
+  margin: 0;
+  padding: 0; 
+}
 
 h2 {
   margin: 1.75em 0 0 0;
