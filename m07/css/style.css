@@ -5,7 +5,7 @@
 
 body {
   background-color: #fff;
-  background: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/m07/images/blackwhite.jpg?raw=true') no-repeat center center fixed;
+  background: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/m07/images/travelworthy-backdrop.jpg?raw=true') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +14,7 @@ body {
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
-  background: #1e1b1e url('https://github.com/MargaretKhamvongsa/dev109/blob/main/m07/images/travelworth.PNG?raw=true') no-repeat;
+  background: #1e1b1e url('https://github.com/MargaretKhamvongsa/dev109/blob/main/m07/images/travelworthy-logo.png?raw=true') no-repeat;
   background-size: contain; 
   width: 230px;
   height: 180px;
