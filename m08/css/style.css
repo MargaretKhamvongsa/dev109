@@ -15,10 +15,11 @@ body {
 h1 {
   background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/m08/kinglogo.png?raw=true');
   background-repeat: no-repeat;
-  background-position: center center;
-  height: 75px;
+  background-position: center 50px;
+  height: 150px;
   width: 117px;
   margin: 0 auto;
+  padding: 30px 10px 20px 10px;
   text-indent: -1000%;
 }
 
