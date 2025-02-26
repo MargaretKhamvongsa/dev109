@@ -16,14 +16,10 @@ h1 {
   background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/m08/kinglogo.png?raw=true');
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  text-align: center;
-  text-indent: -1000%;
   height: 75px;
-  line-height: 75px;
   width: 117px;
-  margin: 0 auto 0 auto;
-  padding: 30px 10px 20px 10px;
+  margin: 0 auto;
+  text-indent: -1000%;
 }
 
 h2 {
