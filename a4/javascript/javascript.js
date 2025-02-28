@@ -123,9 +123,9 @@ function validateForm() {
         document.getElementById("zipcodeError").innerHTML = "";
     }
 
-    // Display all error messages
+  /*  // Display all error messages
     document.getElementById("errorMessages").innerHTML = errorMessages;
 
     return valid && validFirstname && validLastname;
-}
+}*/
 
