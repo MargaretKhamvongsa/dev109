@@ -1,26 +1,14 @@
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a4/images/black-white-nyc-night-skyline.jpg?raw=true'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     padding: 20px;
 }
 
 #page {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    max-width: 600px;
-    margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #e0bbeb;
-    padding: 20px;
-}
-
-#page {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border: 1px solid #ccc;
     max-width: 600px;
@@ -63,31 +51,3 @@ button {
 button:hover {
     background-color: #45a049;
 }
-
-h1 {
-    text-align: center;
-}
-
-form div {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-.error {
-    color: red;
-    font-weight: bold;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white
