@@ -1,1 +1,29 @@
 
+body {
+    height: 100vh;
+    background: beige;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+#dot-settings {
+    margin-bottom: 20px;
+}
+
+.dot {
+    position: absolute;
+    border-radius: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
