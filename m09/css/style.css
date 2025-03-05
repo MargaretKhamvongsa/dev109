@@ -1,4 +1,4 @@
-
+/* Style for body */
 body {
     height: 100vh;
     background: #C8A2C8;
@@ -9,19 +9,23 @@ body {
     justify-content: center;
 }
 
+/* Style for main heading */
 h1 {
     margin: 20px 0;
 }
 
+/* Style for dot settings form */
 #dot-settings {
     margin-bottom: 20px;
 }
 
+/* Style for dots */
 .dot {
     position: absolute;
     border-radius: 50%;
 }
 
+/* Style for buttons */
 button {
     padding: 10px 20px;
     cursor: pointer;
