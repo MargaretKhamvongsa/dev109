@@ -2,10 +2,53 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #808080; 
+    padding: 10px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #808080; 
+    padding: 10px;
+    color: white;
+}
+
+.footer-images {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-image {
+    width: 150px; 
+    height: 150px; 
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0 10px;
+}
+
+/* Footer image URLs */
+.footer-image1 {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/valid-html20.png?raw=true');
+}
+
+.footer-image2 {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/valid-css.png?raw=true');
 }
 
 .carousel-container {
@@ -24,24 +67,18 @@ body {
 }
 
 /* Image URLs */
-#carousel-image.image1 { background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/black-white-nyc-night-skyline-l.jpg?raw=true'); }
-#carousel-image.image2 { background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/beach.png?raw=true'); }
-#carousel-image.image3 { background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/mountain.png?raw=true'); }
-#carousel-image.image4 { background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/tracks.png?raw=true'); }
-#carousel-image.image5 { background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/tree.png?raw=true'); }
-
-.carousel-buttons {
-    margin-top: 10px;
+#carousel-image.image1 {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/black-white-nyc-night-skyline-l.jpg?raw=true');
 }
-
-button {
-    padding: 10px 20px;
-    margin: 0 5px;
-    cursor: pointer;
+#carousel-image.image2 {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/beach.png?raw=true');
 }
-
-#timer {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+#carousel-image.image3 {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/mountain.png?raw=true');
+}
+#carousel-image.image4 {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/tracks.png?raw=true');
+}
+#carousel-image.image5 {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/tree.png?raw=true');
 }
