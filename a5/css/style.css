@@ -14,38 +14,34 @@ body {
 header {
     width: 100%;
     text-align: center;
-    background-color: #808080; 
+    background-color: #808080;
     padding: 10px;
     color: white;
-    z-index: 1;
-    position: relative;
 }
 
 footer {
     width: 100%;
     text-align: center;
-    background-color: #808080; 
+    background-color: #808080;
     padding: 10px;
     color: white;
-    z-index: 1; 
-    position: relative;
 }
 
 .footer-images {
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    z-index: 2; 
-    position: relative;
 }
 
 .footer-image {
-    width: 150px; 
-    height: 150px; 
-    background-size: contain; 
+    width: 150px;
+    height: 150px;
+    background-size: contain;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     margin: 0 10px;
+    background-color: #fff; 
+    border: 1px solid #000; 
 }
 
 /* Footer image URLs */
@@ -60,7 +56,6 @@ footer {
 .carousel-container {
     text-align: center;
     position: relative;
-    z-index: 1; 
 }
 
 .carousel-image {
