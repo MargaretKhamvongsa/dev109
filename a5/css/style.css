@@ -17,6 +17,8 @@ header {
     background-color: #808080; 
     padding: 10px;
     color: white;
+    z-index: 1;
+    position: relative;
 }
 
 footer {
@@ -25,12 +27,16 @@ footer {
     background-color: #808080; 
     padding: 10px;
     color: white;
+    z-index: 1; 
+    position: relative;
 }
 
 .footer-images {
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    z-index: 2; 
+    position: relative;
 }
 
 .footer-image {
@@ -54,6 +60,7 @@ footer {
 .carousel-container {
     text-align: center;
     position: relative;
+    z-index: 1; 
 }
 
 .carousel-image {
