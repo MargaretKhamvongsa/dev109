@@ -1,10 +1,10 @@
 // Image classes and descriptions
 const images = [
-    { class: 'image1', description: 'Description of Image 1' },
-    { class: 'image2', description: 'Description of Image 2' },
-    { class: 'image3', description: 'Description of Image 3' },
-    { class: 'image4', description: 'Description of Image 4' },
-    { class: 'image5', description: 'Description of Image 5' }
+    { class: 'image1', description: 'Description of City Skyline' },
+    { class: 'image2', description: 'Description of Beach' },
+    { class: 'image3', description: 'Description of Mountain' },
+    { class: 'image4', description: 'Description of Tracks' },
+    { class: 'image5', description: 'Description of Tree' }
 ];
 
 let currentIndex = 0; // Current image index
