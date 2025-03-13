@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://github.com/MargaretKhamvongsa/dev109/raw/main/finalp1/Images/beach.png'); /* GitHub raw image link */
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/finalp1/Images/beach.png?raw=true');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
