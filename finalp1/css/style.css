@@ -1,1 +1,183 @@
 
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C8A2C8;
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/pic2.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 90%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background: #4B0082;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B0082;
+    display: flex;
+    justify-content: center;
+}
+
+/* List Items */
+nav ul li {
+    display: inline;
+}
+
+/* Navigation Links */
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 60px;
+}
+
+/* Contact Me Page Form Styles */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4B0082;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+/* Validated Page Styles */
+.validated-page .flex-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.validated-page .html-column, .validated-page .css-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.validated-page .validation-image {
+    width: 600px;
+    height: 700px;
+    display: block;
+    margin: 1px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.validated-page #home-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidTermIndexValidated.PNG?raw=true');
+}
+
+.validated-page #about-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermAboutValidated.PNG?raw=true');
+}
+
+.validated-page #courses-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermArtifactsValidated.PNG?raw=true');
+}
+
+.validated-page #artifacts-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermContactMeValidated.PNG?raw=true');
+}
+
+.validated-page #moduleassignments-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermCoursesValidated.PNG?raw=true');
+}
+
+.validated-page #contactme-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermModuleAssignmentsValidated.PNG?raw=true');
+}
+
+.validated-page #wildcard-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/MidtermWildCardValidated.PNG?raw=true');
+}
+
+.validated-page #css-validation {
+    background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/Midterm/Images/Css_Validation.PNG?raw=true');
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+
+/* Bold Labels */
+.validated-page .html-column p,
+.validated-page .css-column p {
+    font-weight: bold;
+}
