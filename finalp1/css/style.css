@@ -7,7 +7,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #F0F0F5;
+    color: #1A1A2E;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -16,14 +16,14 @@ body {
 /* Header Styles */
 header {
     background-color: #27293D;
-    color: #F0F0F5;
+    color: #C8A2C8;
     padding: 20px;
     text-align: center;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
@@ -46,12 +46,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #F0F0F5;
+    color: #C8A2C8;
     text-decoration: none;
     font-weight: 700;
     padding: 10px 15px;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
@@ -63,12 +63,12 @@ main {
     flex: 1;
     padding: 120px 20px 40px;
     text-align: center;
-    color: #C8A2C8;
+    color: #1A1A2E;
 }
 
 /* About Section Styles */
 main section ul li a {
-    color: #C8A2C8;
+    color: #1A1A2E; 
     text-decoration: none;
     font-weight: bold;
     border-bottom: 2px solid transparent;
@@ -76,13 +76,13 @@ main section ul li a {
 }
 
 main section ul li a:hover {
-    color: #E6B8E6;
-    border-bottom: 2px solid #E6B8E6;
+    color: #FFFFFF; 
+    border-bottom: 2px solid #FFFFFF;
 }
 
 main section {
-    background-color: rgba(200, 162, 200, 0.1);
-    border: 2px solid #C8A2C8;
+    background-color: rgba(26, 26, 46, 0.1); 
+    border: 2px solid #1A1A2E; 
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -91,29 +91,29 @@ main section {
 }
 
 main section h2 {
-    color: #E6B8E6; 
-    font-size: 2em; 
-    font-weight: 700; 
-    margin-bottom: 15px; 
+    color: #1A1A2E; 
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 main section p {
-    color: #F5E6F5; 
-    font-size: 1.2em; 
-    line-height: 1.8; 
-    text-align: justify; 
+    color: #1A1A2E;
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: justify;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #1A1A2E; 
-    color: #FFFFFF; 
+    background-color: #1A1A2E;
+    color: #C8A2C8;
     text-align: center;
     padding: 15px;
     width: 100%;
-    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.2); 
-    font-size: 1.1em; 
-    margin-top: auto; 
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.2);
+    font-size: 1.1em;
+    margin-top: auto;
     position: static;
 }
 
