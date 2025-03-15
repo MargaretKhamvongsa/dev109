@@ -1,4 +1,3 @@
-
 // Validate and Submit Form
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent default submission
@@ -31,14 +30,14 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     }
 
     if (errorMessages.length > 0) {
-        alert(errorMessages.join('\n')); // Show validation errors
+        alert(errorMessages.join('\n'));
     } else {
         alert('Thank you for your submission!');
         this.submit(); // Proceed to "thankyou.html"
     }
 });
 
-// JavaScript for Wild card page
+// JavaScript for Wildcard Page
 document.addEventListener('DOMContentLoaded', () => {
     const audio = document.querySelector('audio');
 
