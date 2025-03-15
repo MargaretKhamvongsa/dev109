@@ -82,7 +82,7 @@ table {
 }
 
 table td {
-    width: 50%; /* Two items per row */
+    width: 50%;
     text-align: center;
     vertical-align: top;
     padding: 20px;
