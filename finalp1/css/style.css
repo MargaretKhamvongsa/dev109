@@ -73,7 +73,7 @@ main {
     font-weight: 400;
 }
 
-/* Table Styles (For Both Artifacts and Modules) */
+/* Table Styles (For Artifacts and Modules Pages) */
 table {
     width: 80%;
     margin: 0 auto;
@@ -82,7 +82,7 @@ table {
 }
 
 table td {
-    width: 50%;
+    width: 50%; /* Two items per row */
     text-align: center;
     vertical-align: top;
     padding: 20px;
@@ -92,7 +92,7 @@ table td {
 }
 
 table img {
-    max-width: 100px; /* Restrict image size */
+    max-width: 100px;
     height: auto;
     margin-bottom: 10px;
     display: block;
@@ -120,6 +120,65 @@ table a:hover {
     color: #0056b3;
 }
 
+/* Form Styles (For Contact Me Page) */
+.contact-form form {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #1A1A2E;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #1A1A2E;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #27293D;
+    color: #C8A2C8;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #3A3B4F;
+    transform: scale(1.05);
+}
+
+.contact-form input[type="submit"]:active {
+    transform: scale(0.95);
+}
+
 /* Footer Styles */
 footer {
     background-color: #1A1A2E;
@@ -133,58 +192,4 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: 1000;
-}
-
-/* Animation Styles */
-.animated-image {
-    animation: spin 10s linear infinite;
-    width: 200px;
-    margin: 20px auto;
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-/* Fade-in Animation for Sections */
-main section {
-    background-color: rgba(26, 26, 46, 0.1);
-    border: 2px solid #1A1A2E;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    max-width: 800px;
-    margin: 20px auto;
-    animation: fadeIn 1s ease-in-out;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-main section h2 {
-    color: #1A1A2E;
-    font-size: 2em;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-main section p {
-    color: #1A1A2E;
-    font-size: 1.1em;
-    font-weight: 400;
-    line-height: 1.8;
-    text-align: justify;
 }
