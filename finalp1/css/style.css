@@ -73,41 +73,37 @@ main {
     font-weight: 400;
 }
 
-/* Artifacts Table Styles (Evenly Sized) */
-.artifacts-table {
+/* Module Assignments Table */
+.module-table {
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
     table-layout: fixed;
 }
 
-.artifacts-table td {
-    width: 50%;
-    height: 300px;
+.module-table td {
     text-align: center;
     vertical-align: top;
-    padding: 20px;
-    border: 1px solid #ddd;
-    box-sizing: border-box;
+    width: 50%;
+    height: 300px;
+    padding: 15px;
 }
 
-.artifacts-table img {
+.module-table img {
     max-width: 100px;
     height: auto;
-    margin-bottom: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 10px;
 }
 
-.artifacts-table p {
+.module-table p {
     margin: 10px 0;
     font-size: 1em;
     font-weight: 400;
 }
 
-.artifacts-table a {
-    display: block;
+.module-table a {
+    display: inline-block;
     margin-top: 10px;
     color: #007BFF;
     text-decoration: none;
@@ -116,9 +112,8 @@ main {
     transition: color 0.3s ease;
 }
 
-.artifacts-table a:hover {
+.module-table a:hover {
     color: #0056b3;
-    text-decoration: underline;
 }
 
 /* Footer Styles */
