@@ -73,34 +73,40 @@ main {
     font-weight: 400;
 }
 
-/* Module Assignments Table */
-.module-table {
+/* Artifacts Table Styles (Evenly Sized) */
+.artifacts-table {
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
-.module-table td {
+.artifacts-table td {
+    width: 50%;
+    height: 300px;
     text-align: center;
     vertical-align: top;
     padding: 20px;
-    border-bottom: 1px solid #ddd;
-    width: 50%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
 }
 
-.module-table img {
-    width: 120px;
+.artifacts-table img {
+    max-width: 100px;
     height: auto;
     margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.module-table p {
+.artifacts-table p {
     margin: 10px 0;
     font-size: 1em;
     font-weight: 400;
 }
 
-.module-table a {
+.artifacts-table a {
     display: block;
     margin-top: 10px;
     color: #007BFF;
@@ -110,7 +116,7 @@ main {
     transition: color 0.3s ease;
 }
 
-.module-table a:hover {
+.artifacts-table a:hover {
     color: #0056b3;
     text-decoration: underline;
 }
@@ -133,7 +139,7 @@ footer {
 /* Animation Styles */
 .animated-image {
     animation: spin 10s linear infinite;
-    width: 200px; 
+    width: 200px;
     margin: 20px auto;
 }
 
