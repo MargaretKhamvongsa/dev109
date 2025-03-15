@@ -7,17 +7,21 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: overlay;
     color: #1A1A2E;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 120px;
+    padding-bottom: 80px;
 }
 
 /* Header Styles */
 header {
     background-color: #27293D;
     color: #C8A2C8;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     position: fixed;
     top: 0;
@@ -42,13 +46,14 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: #C8A2C8;
     text-decoration: none;
     font-weight: 700;
+    font-size: 1em;
     padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -61,47 +66,53 @@ nav ul li a:hover {
 /* Main Content Styles */
 main {
     flex: 1;
-    padding: 120px 20px 40px;
+    padding: 20px;
     text-align: center;
     color: #1A1A2E;
+    font-size: 1em;
+    font-weight: 400;
 }
 
-/* About Section Styles */
-main section ul li a {
-    color: #1A1A2E; 
-    text-decoration: none;
-    font-weight: bold;
-    border-bottom: 2px solid transparent;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
+/* Module Assignments Table */
+.module-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
 }
 
-main section ul li a:hover {
-    color: #FFFFFF; 
-    border-bottom: 2px solid #FFFFFF;
-}
-
-main section {
-    background-color: rgba(26, 26, 46, 0.1); 
-    border: 2px solid #1A1A2E; 
-    border-radius: 10px;
+.module-table td {
+    text-align: center;
+    vertical-align: top;
     padding: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    max-width: 800px;
-    margin: 20px auto;
+    border-bottom: 1px solid #ddd;
+    width: 50%;
 }
 
-main section h2 {
-    color: #1A1A2E; 
-    font-size: 2em;
+.module-table img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.module-table p {
+    margin: 10px 0;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.module-table a {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1em;
     font-weight: 700;
-    margin-bottom: 15px;
+    transition: color 0.3s ease;
 }
 
-main section p {
-    color: #1A1A2E;
-    font-size: 1.2em;
-    line-height: 1.8;
-    text-align: justify;
+.module-table a:hover {
+    color: #0056b3;
+    text-decoration: underline;
 }
 
 /* Footer Styles */
@@ -109,33 +120,41 @@ footer {
     background-color: #1A1A2E;
     color: #C8A2C8;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     width: 100%;
     box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.2);
     font-size: 1.1em;
-    margin-top: auto;
-    position: static;
+    font-weight: 400;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
 }
 
-/* Animated Image Styles */
+/* Animation Styles */
 .animated-image {
     animation: spin 10s linear infinite;
-    width: 200px;
+    width: 200px; 
     margin: 20px auto;
 }
 
-/* Add a smooth spin animation */
 @keyframes spin {
-    0% {
+    from {
         transform: rotate(0deg);
     }
-    100% {
+    to {
         transform: rotate(360deg);
     }
 }
 
 /* Fade-in Animation for Sections */
 main section {
+    background-color: rgba(26, 26, 46, 0.1);
+    border: 2px solid #1A1A2E;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 20px auto;
     animation: fadeIn 1s ease-in-out;
 }
 
@@ -148,4 +167,19 @@ main section {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+main section h2 {
+    color: #1A1A2E;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+main section p {
+    color: #1A1A2E;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: justify;
 }
