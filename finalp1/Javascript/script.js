@@ -1,5 +1,5 @@
 
-//Submit Form
+// Validate and Submit Form
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent default submission
 
