@@ -1,16 +1,12 @@
 /* General Page Layout */
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
-    /* Flexbox for overall content centering */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
 }
 
 /* Header Styling */
@@ -18,23 +14,30 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    text-align: center;
     background-color: #007BFF;
     color: white;
-    padding: 20px;
+    text-align: center;
     font-size: 1.5rem;
+    padding: 20px;
     z-index: 10;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Main Content Styling */
-main {
+/* Flex Container */
+.flex-container {
+    flex: 1;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin-top: 100px;
-    width: 100%;
+    align-items: center;
+    margin-top: 80px;
+    flex-direction: column;
+}
+
+/* Main Content */
+main {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
 }
 
 /* List of Items */
@@ -55,23 +58,30 @@ ul li.found {
     color: green;
 }
 
-/* Image Container Centered */
+/* Image Container */
 .image-container {
     position: relative;
     background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/ispy/images/spygame.PNG?raw=true');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 80%;
+    width: 100%;
+    max-width: 600px;
     height: 400px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+/* Replay Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 /* Replay Button */
 #replay-btn {
-    margin: 20px auto;
     padding: 10px 20px;
     font-size: 1rem;
     background-color: #007BFF;
@@ -79,7 +89,6 @@ ul li.found {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: none;
 }
 
 #replay-btn:hover {
