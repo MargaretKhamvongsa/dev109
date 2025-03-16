@@ -27,4 +27,3 @@ function replay() {
     foundCount = 0; // Reset found count
     document.getElementById("replay-btn").style.display = "none"; // Hide replay button
 }
-
