@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,35 +7,37 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>I Spy Game</h1>
-    <p>Find the objects in the picture below:</p>
-    <ul id="item-list">
-        <li id="item-trophy">Trophy</li>
-        <li id="item-umbrella">Umbrella</li>
-        <li id="item-sugar-bowl">Sugar Bowl</li>
-        <li id="item-rubberduck">Rubberduck</li>
-        <li id="item-cat">Cat</li>
-        <li id="item-camera">Camera</li>
-        <li id="item-birdcage">Birdcage</li>
-        <li id="item-backpack">Backpack</li>
-        <li id="item-banana">Banana</li>
-        <li id="item-citrus-juicer">Citrus Juicer</li>
-        <li id="item-bike-sign">Bike Sign</li>
-    </ul>
-    <div class="image-container" style="position: relative; background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/ispy/images/spygame.PNG?raw=true'); background-size: contain; background-repeat: no-repeat; height: 400px;">
-        <a href="#" title="trophy" style="position: absolute; left: 5.42%; top: 10.37%; width: 15%; height: 23.62%;" onclick="foundItem('item-trophy')"></a>
-        <a href="#" title="umbrella" style="position: absolute; left: 4.42%; top: 53.41%; width: 10.42%; height: 47.11%;" onclick="foundItem('item-umbrella')"></a>
-        <a href="#" title="sugar bowl" style="position: absolute; left: 11.08%; top: 0%; width: 11%; height: 13.78%;" onclick="foundItem('item-sugar-bowl')"></a>
-        <a href="#" title="rubberduck" style="position: absolute; left: 20.5%; top: 35.27%; width: 6.17%; height: 14.04%;" onclick="foundItem('item-rubberduck')"></a>
-        <a href="#" title="cat" style="position: absolute; left: 60.67%; top: 43.81%; width: 15%; height: 27.43%;" onclick="foundItem('item-cat')"></a>
-        <a href="#" title="camera" style="position: absolute; left: 52.75%; top: 35.8%; width: 7.17%; height: 9.45%;" onclick="foundItem('item-camera')"></a>
-        <a href="#" title="birdcage" style="position: absolute; left: 82.17%; top: 15.63%; width: 14.5%; height: 42.78%;" onclick="foundItem('item-birdcage')"></a>
-        <a href="#" title="backpack" style="position: absolute; left: 82.5%; top: 50.72%; width: 17.33%; height: 22.41%;" onclick="foundItem('item-backpack')"></a>
-        <a href="#" title="banana" style="position: absolute; left: 15.5%; top: 80.7%; width: 10.58%; height: 18.92%;" onclick="foundItem('item-banana')"></a>
-        <a href="#" title="citrus juicer" style="position: absolute; left: 45.17%; top: 9.32%; width: 7.25%; height: 6.43%;" onclick="foundItem('item-citrus-juicer')"></a>
-        <a href="#" title="bike sign" style="position: absolute; left: 54.33%; top: 0.26%; width: 9.42%; height: 17.32%;" onclick="foundItem('item-bike-sign')"></a>
-    </div>
-    <button id="replay-btn" style="display: none;" onclick="replay()">Play Again</button>
+    <header>
+        <h1>I Spy Game</h1>
+    </header>
+    <main>
+        <p>Find the objects in the picture below:</p>
+        <ul id="item-list">
+            <li id="item-trophy">Trophy</li>
+            <li id="item-umbrella">Umbrella</li>
+            <li id="item-sugar-bowl">Sugar Bowl</li>
+            <li id="item-rubberduck">Rubberduck</li>
+            <li id="item-cat">Cat</li>
+            <li id="item-camera">Camera</li>
+            <li id="item-birdcage">Birdcage</li>
+            <li id="item-backpack">Backpack</li>
+            <li id="item-citrus-juicer">Citrus Juicer</li>
+            <li id="item-bike-sign">Bike Sign</li>
+        </ul>
+        <div class="image-container">
+            <a href="#" title="trophy" style="position: absolute; left: 5.42%; top: 10.37%; width: 15%; height: 23.62%;" onclick="foundItem('item-trophy')"></a>
+            <a href="#" title="umbrella" style="position: absolute; left: 4.42%; top: 53.41%; width: 10.42%; height: 47.11%;" onclick="foundItem('item-umbrella')"></a>
+            <a href="#" title="sugar bowl" style="position: absolute; left: 11.08%; top: 0%; width: 11%; height: 13.78%;" onclick="foundItem('item-sugar-bowl')"></a>
+            <a href="#" title="rubberduck" style="position: absolute; left: 20.5%; top: 35.27%; width: 6.17%; height: 14.04%;" onclick="foundItem('item-rubberduck')"></a>
+            <a href="#" title="cat" style="position: absolute; left: 60.67%; top: 43.81%; width: 15%; height: 27.43%;" onclick="foundItem('item-cat')"></a>
+            <a href="#" title="camera" style="position: absolute; left: 52.75%; top: 35.8%; width: 7.17%; height: 9.45%;" onclick="foundItem('item-camera')"></a>
+            <a href="#" title="birdcage" style="position: absolute; left: 82.17%; top: 15.63%; width: 14.5%; height: 42.78%;" onclick="foundItem('item-birdcage')"></a>
+            <a href="#" title="backpack" style="position: absolute; left: 82.5%; top: 50.72%; width: 17.33%; height: 22.41%;" onclick="foundItem('item-backpack')"></a>
+            <a href="#" title="citrus juicer" style="position: absolute; left: 45.17%; top: 9.32%; width: 7.25%; height: 6.43%;" onclick="foundItem('item-citrus-juicer')"></a>
+            <a href="#" title="bike sign" style="position: absolute; left: 54.33%; top: 0.26%; width: 9.42%; height: 17.32%;" onclick="foundItem('item-bike-sign')"></a>
+        </div>
+        <button id="replay-btn" onclick="replay()">Play Again</button>
+    </main>
     <script src="js/javascript.js"></script>
 </body>
 </html>
