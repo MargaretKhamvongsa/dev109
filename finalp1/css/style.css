@@ -63,11 +63,12 @@ nav ul li a:hover {
     background-color: #3A3B4F;
 }
 
-/* Centering Text */
-.centered-content {
+/* Global Centering for Main and Sections */
+main, section {
     text-align: center;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px;
+    max-width: 800px; 
 }
 
 /* Table Styles */
@@ -120,21 +121,18 @@ table tr:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Form Group */
 .form-group {
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
 }
 
-/* Labels */
 .form-label {
     font-weight: 700;
     margin-bottom: 5px;
     color: #27293D;
 }
 
-/* Inputs and Textarea */
 .form-input,
 .form-textarea {
     padding: 10px;
@@ -155,13 +153,11 @@ table tr:hover {
     outline: none;
 }
 
-/* Textarea Specific Styles */
 .form-textarea {
     resize: vertical;
     height: 100px;
 }
 
-/* Submit Button */
 .form-submit {
     padding: 10px 20px;
     font-size: 1.1em;
