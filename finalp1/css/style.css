@@ -175,6 +175,47 @@ table tr:hover {
     transform: scale(1.05);
 }
 
+/* Two-Column Validation Layout */
+.validated-page .validation-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.validated-page .column {
+    flex: 1;
+    max-width: 48%;
+    text-align: center;
+}
+
+.validated-page .column h2 {
+    color: #27293D;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.validated-page figure {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.validated-page figure img {
+    max-width: 90%;
+    height: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.validated-page figure figcaption {
+    margin-top: 5px;
+    color: #1A1A2E;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
 /* Footer Styles */
 footer {
     background-color: #1A1A2E;
