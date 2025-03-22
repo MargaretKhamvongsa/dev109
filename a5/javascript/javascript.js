@@ -41,7 +41,22 @@ function resetInterval() {
     timer = 0;
 }
 
+let isAutoAdvanceOn = true; // Track whether auto-advance is active
+
+// Function to toggle auto-advance
+function toggleAutoAdvance() {
+    if (isAutoAdvanceOn) {
+        clearInterval(slideInterval); // Stop the slideshow
+        document.getElementById('toggle-auto-advance').textContent = 'Resume Auto-Advance';
+    } else {
+        slideInterval = setInterval(nextImage, intervalTime); // Resume the slideshow
+        document.getElementById('toggle-auto-advance').textContent = 'Pause Auto-Advance';
+    }
+    isAutoAdvanceOn = !isAutoAdvanceOn; // Toggle the state
+}
+
 // Event listeners
+document.getElementById('toggle-auto-advance').addEventListener('click', toggleAutoAdvance);
 document.getElementById('next-btn').addEventListener('click', nextImage);
 document.getElementById('prev-btn').addEventListener('click', prevImage);
 
