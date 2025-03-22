@@ -67,6 +67,23 @@ footer {
     background-position: center;
 }
 
+/* Styling for the toggle auto-advance button */
+#toggle-auto-advance {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#toggle-auto-advance:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
 /* Image URLs */
 #carousel-image.image1 {
     background-image: url('https://github.com/MargaretKhamvongsa/dev109/blob/main/a5/images/black-white-nyc-night-skyline-l.jpg?raw=true');
