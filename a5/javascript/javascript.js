@@ -1,4 +1,3 @@
-// Image classes and descriptions
 const images = [
     { class: 'image1', description: 'Description of City Skyline' },
     { class: 'image2', description: 'Description of Beach' },
@@ -7,65 +6,59 @@ const images = [
     { class: 'image5', description: 'Description of Tree' }
 ];
 
-let currentIndex = 0; // Current image index
-let timer = 0; // Timer value
-const imageElement = document.getElementById('carousel-image'); // Image element
-const descriptionElement = document.getElementById('image-description'); // Description element
-const timerElement = document.getElementById('timer'); // Timer display
-const intervalTime = 4000; // 4 seconds interval
+let currentIndex = 0;
+let timer = 0;
+const imageElement = document.getElementById('carousel-image');
+const descriptionElement = document.getElementById('image-description');
+const timerElement = document.getElementById('timer');
+const intervalTime = 4000;
 
-// Display image and description
+let slideInterval = setInterval(nextImage, intervalTime);
+let isAutoAdvanceOn = true;
+
 function showImage(index) {
     imageElement.className = 'carousel-image ' + images[index].class;
     descriptionElement.textContent = images[index].description;
 }
 
-// Next image
 function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;
     showImage(currentIndex);
     resetInterval();
 }
 
-// Previous image
 function prevImage() {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
     showImage(currentIndex);
     resetInterval();
 }
 
-// Reset interval and timer
 function resetInterval() {
-    clearInterval(slideInterval);
-    slideInterval = setInterval(nextImage, intervalTime);
+    if (isAutoAdvanceOn) {
+        clearInterval(slideInterval);
+        slideInterval = setInterval(nextImage, intervalTime);
+    }
     timer = 0;
 }
 
-let isAutoAdvanceOn = true; // Track whether auto-advance is active
-
-// Function to toggle auto-advance
 function toggleAutoAdvance() {
     if (isAutoAdvanceOn) {
-        clearInterval(slideInterval); // Stop the slideshow
+        clearInterval(slideInterval);
         document.getElementById('toggle-auto-advance').textContent = 'Resume Auto-Advance';
     } else {
-        slideInterval = setInterval(nextImage, intervalTime); // Resume the slideshow
+        slideInterval = setInterval(nextImage, intervalTime);
         document.getElementById('toggle-auto-advance').textContent = 'Pause Auto-Advance';
     }
-    isAutoAdvanceOn = !isAutoAdvanceOn; // Toggle the state
+    isAutoAdvanceOn = !isAutoAdvanceOn;
 }
 
-// Event listeners
-document.getElementById('toggle-auto-advance').addEventListener('click', toggleAutoAdvance);
 document.getElementById('next-btn').addEventListener('click', nextImage);
 document.getElementById('prev-btn').addEventListener('click', prevImage);
-
-let slideInterval = setInterval(nextImage, intervalTime); // Slideshow interval
+document.getElementById('toggle-auto-advance').addEventListener('click', toggleAutoAdvance);
 
 setInterval(() => {
-    timer += 1; // Increment timer
-    timerElement.textContent = `Timer: ${timer}`; // Update timer display
+    timer += 1;
+    timerElement.textContent = `Timer: ${timer}`;
 }, 1000);
 
-// Initial image display
 showImage(currentIndex);
