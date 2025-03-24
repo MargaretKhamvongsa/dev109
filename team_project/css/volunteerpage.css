@@ -1,0 +1,141 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002244; /* Navy blue */
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #005C5C; /* Seattle Blue */
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Pure white for readability */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    min-height: 44px; /* Ensures accessibility compliance */
+}
+
+nav ul li a:hover {
+    background-color: #004a4a; /* Darker Seattle Blue on hover */
+}
+
+/* Main Content Styling */
+.main-content {
+    flex: 1;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.main-content h1 {
+    color: #FFFFFF; /* Seahawks Green */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.about-section {
+    background-color: #333333; /* Seahawks Silver */
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 8px;
+    border: 5px solid #005C5C; /* Seattle Blue */
+}
+
+.about-section h2 {
+    color: #FFFFFF; /* Navy Blue */
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #005C5C;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.error-message {
+    color: #FF0000;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+button[type="submit"] {
+    background-color: #005C5C; /* Teal for better contrast */
+    color: #FFFFFF; /* White text for readability */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #003737; /* Darker teal on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #005C5C; /* Seattle Blue */
+    color: white;
+    width: 100%;
+}
+
+/* Link Styling */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
