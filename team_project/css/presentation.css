@@ -1,0 +1,141 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002244; /* Navy blue */
+    color: #F5F5F5; /* UPDATED: Changed to a very light gray for improved contrast */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #005C5C; /* UPDATED: Darkened Seattle Blue for improved contrast */
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Navigation Bar Styling For Site Improvement */
+nav ul li a {
+    color: #FFFFFF; /* UPDATED: Changed to pure white for better readability */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    min-height: 44px; /* ADDED: Ensures minimum height for accessibility */
+}
+
+nav ul li a:hover {
+    background-color: #004a4a; /* Darker Seattle Blue */
+}
+
+/* Title Styling */
+#top-box {
+    text-align: center;
+    background-color: #002244; /* UPDATED: Darkened silver for improved contrast */
+    padding: 20px;
+    border: 4px solid #002244; /* Seattle Blue border */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#top-box h1 {
+    color: #FFFFFF; /* UPDATED: Changed to pure white for improved contrast with silver background */
+    margin: 0;
+}
+
+/* Main Content Styling */
+#main-content {
+    flex: 1;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Right Box Styling (Parent Container) */
+#right-box {
+    background-color: #373c3f; /* UPDATED: Darkened background for improved contrast in Volunteer Presentation */
+    border: 5px solid #005C5C; /* Seattle Blue */
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    max-width: 1000px; /* Widened for more room */
+    width: 100%; /* Ensure flexibility */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Embedded Presentation Styling */
+#embedded-presentation iframe {
+    border: none;
+    width: 788px;
+    height: 600px;
+    aspect-ratio: 4 / 3;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Volunteer Presentation Text Styling */
+#right-box-text {
+    font-size: 1.2em;
+    color: #F5F5F5; /* RETAINED: Very light gray text for readability */
+    margin-bottom: 15px;
+}
+
+/* Paragraph Styling */
+p {
+    line-height: 1.5; /* UPDATED: Ensures minimum line height for accessibility */
+    margin: 0; /* Adjusts spacing if needed */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003737; /* UPDATED: Darkened Seattle Blue for improved contrast */
+    color: #FFFFFF; /* UPDATED: Changed to pure white for better readability */
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+footer a {
+    color: #FFFFFF; /* UPDATED: Changed to pure white for better readability */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Link Styling for General Text */
+a {
+    color: #FFFFFF; /* UPDATED: Changed to pure white for better readability */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none; /* Underlined on hover */
+}
+
+a:active {
+    color: #69BE28; /* Seahawks Green when clicked */
+}
